@@ -16,7 +16,7 @@ int main() {
     cout<< "difference = "<< (x - y) <<endl;
     cout<< "product = "<< (x * y) <<endl;
     cout<< "division = "<< (x / y) <<endl;
-    cout<< "modulo = "<< (x % y) <<endl; // 1
+    cout<< "modulo = "<< (x % y) <<endl;        // 1
 
     cout<<"\n";
     int u = 9 , r = 10 ;
@@ -42,17 +42,17 @@ int main() {
     // [ || OR symbol , && AND symbol ]  use 
 
     cout<<"\n";
-    cout<<( (5>3) || (8>3) )<<endl; // true  -->  1 [ first correct and second correct --> ans true  ]
-    cout<<( (6>3) || (4>9) )<<endl; // true  -->  1 [ first correct and second false   --> ans true  ]
-    cout<<( (3>5) || (8>3) )<<endl; // true  -->  1 [ first false   and second correct --> ans true  ]
-    cout<<( (5<2) || (8<2) )<<endl; // false -->  0 [ first false   and second false   --> ans false ]
+    cout<<( (5>3) || (8>3) )<<endl;     // true  -->  1 [ first correct and second correct --> ans true  ]
+    cout<<( (6>3) || (4>9) )<<endl;     // true  -->  1 [ first correct and second false   --> ans true  ]
+    cout<<( (3>5) || (8>3) )<<endl;     // true  -->  1 [ first false   and second correct --> ans true  ]
+    cout<<( (5<2) || (8<2) )<<endl;     // false -->  0 [ first false   and second false   --> ans false ]
 
-    cout<<( (6>3) && (9>2) )<<endl; // true  -->  1 [ first correct and second correct --> ans true  ]
-    cout<<( (6>3) && (9<2) )<<endl; // false -->  0 [ first correct and second false   --> ans false ]
-    cout<<( (6>7) && (9>2) )<<endl; // false -->  0 [ first false   and second correct --> ans false ]
-    cout<<( (6<3) && (9<2) )<<endl; // false -->  0 [ first false   and second false   --> ans false ]
+    cout<<( (6>3) && (9>2) )<<endl;     // true  -->  1 [ first correct and second correct --> ans true  ]
+    cout<<( (6>3) && (9<2) )<<endl;     // false -->  0 [ first correct and second false   --> ans false ]
+    cout<<( (6>7) && (9>2) )<<endl;     // false -->  0 [ first false   and second correct --> ans false ]
+    cout<<( (6<3) && (9<2) )<<endl;     // false -->  0 [ first false   and second false   --> ans false ]
 
-    // [ a++ and ++a , b-- and --b ] Difference
+    // [ a++ and ++a , a-- and --a ] Difference
 
     int a = 5 ;
     int b = a ;
