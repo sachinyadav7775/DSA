@@ -99,6 +99,30 @@ int main() {
     }
     cout<<endl;
     cout <<"Total odd number of sum = " << sUm <<endl; 
+    cout<<"\n";
+
+    // prime number and non prime number
+
+    int N = 18;
+    bool isprime = true;
+    for(int i=2; i<=N-1; i++) {
+        if(N % i == 0) {              
+            isprime = false;
+            break;
+        }                                                                   // {9}
+    }
+    // for(int j=2; j*j<=N; j++) {
+    //     if(N % j == 0) {                
+    //         isprime = false;
+    //         break;
+    //     }
+    // }
+
+    if(isprime == 0) {
+        cout <<"prime no\n";
+    } else {
+        cout <<"non prime no\n";
+    }
 
     return 0;
 }
