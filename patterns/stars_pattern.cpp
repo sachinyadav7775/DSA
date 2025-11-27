@@ -118,6 +118,34 @@ int main() {
     }
     cout<<endl;
 
+    // [ Diamond pattern solid ]
+
+    int z = 4;
+    // Top part
+    for(int i=0; i<z; i++) {
+        for(int j=0; j<z-i-1; j++) {
+            cout<<" ";
+        }
+        for(int j=0; j<i+1; j++) {
+            cout <<"*";
+        }
+        for(int j=i; j>0; j--) {
+            cout <<"*";
+        }                                                                         // {8}
+        cout<<endl;
+    }
+    // Bottom part
+    for(int i=z-2; i>=0; i--) {
+        for(int j=0; j<z-i-1; j++) {
+            cout << " ";
+        }
+        for(int j=0; j<2*i+1; j++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+    cout<<endl;
+
     // [ Butterfly Pattern ]
 
     int R = 4;
@@ -133,7 +161,7 @@ int main() {
             cout <<"*";
         }
         cout<<endl;
-    }                                                                           // {8}
+    }                                                                           // {9}
     // Bottom part
     for(int i=R-1; i>=0; i--) {
         for(int j=0; j<i+1; j++) {
