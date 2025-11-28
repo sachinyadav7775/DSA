@@ -75,6 +75,29 @@ int main() {
     }
     cout<<endl;
 
+    int k = 5;
+    // Top part
+    for(int i=k; i>=1; i--) {
+        for(int j=0; j<k-i; j++) {
+            cout<<" ";
+        }                                                             
+        for(int j=0; j<2*i-1; j++) {
+            cout<<"*";
+        }
+        cout<<endl;                                                           // {7}
+    }
+    // Bottom part 
+    for(int i=2; i<=k; i++) {
+        for(int j=0; j<k-i; j++) {
+            cout <<" ";
+        }
+        for(int j=0; j<2*i-1; j++) {
+            cout <<"*";
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+
     // [ Diamond pattern ]
 
     int u = 4;
@@ -97,7 +120,7 @@ int main() {
         }
         cout<<endl;
     }                                                             
-    // Bottom part                                                             // {7}
+    // Bottom part                                                             // {8}
     for(int i=0; i<u-1; i++) {
 
         // Spaces
@@ -131,7 +154,7 @@ int main() {
         }
         for(int j=i; j>0; j--) {
             cout <<"*";
-        }                                                                         // {8}
+        }                                                                         // {9}
         cout<<endl;
     }
     // Bottom part
@@ -161,7 +184,7 @@ int main() {
             cout <<"*";
         }
         cout<<endl;
-    }                                                                           // {9}
+    }                                                                           // {10}
     // Bottom part
     for(int i=R-1; i>=0; i--) {
         for(int j=0; j<i+1; j++) {
