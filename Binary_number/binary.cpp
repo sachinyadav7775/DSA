@@ -27,7 +27,7 @@ int dinToDecimal(int binNum) {
 int main() {
     int decNum = 50;
     for(int i=1; i<=12; i++) {
-        cout << decToBinary(i) <<endl;
+        cout << decToBinary(i) <<endl; 
     }
 
     // cout << dinToDecimal(10) <<endl;
